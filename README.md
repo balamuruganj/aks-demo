@@ -81,14 +81,4 @@ Here are the required sections to follow for deploying the AKS Fabrikam Drone De
 * [ ] [Perform end-to-end deployment validation](./10-validation.md)
 * [ ] [Cleanup all resources](./11-cleanup.md)
 
-## Next Steps
 
-This reference implementation intentionally does not cover all scenarios. If you are looking for other topics that are not addressed here, please visit [AKS Secure Baseline for the complete list of covered scenarios around AKS](https://github.com/mspnp/aks-secure-baseline#advanced-topics).
-
-## Contributions
-
-Please see our [contributor guide](./CONTRIBUTING.md).
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact <opencode@microsoft.com> with any additional questions or comments.
-
-With :heart: from Microsoft Patterns & Practices, [Azure Architecture Center](https://aka.ms/architecture).
