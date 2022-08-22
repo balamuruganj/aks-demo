@@ -4,19 +4,19 @@ This reference implementation shows a set of best practices for building and run
 
 To quickly understand how the AKS Fabrikam Drone Delivery expands the AKS Secure Baseline, please refer to the following table:
 
-|                                         | [AKS Secure Baseline](https://github.com/mspnp/aks-secure-baseline) | AKS Fabrikam Drone Delivery |
-|-----------------------------------------|-------|----------|
-| Egress restriction using Azure Firewall |  ✅   |    ✅    |
-| Ingress Controller                      |  ✅   |    ✅    |
-| Azure Active Directory Pod Identity     |  ✅   |    ✅    |
-| Resource Limits                         |  ✅   |    ✅    |
-| Other Infrastructure aspects            |  ✅   |    ✅    |
-| Zero Trust Network Policies             |  ❌   |    ✅    |
-| Horizontal Pod Autoscaling              |  ❌   |    ✅    |
-| Cluster Autoscaling                     |  ❌   |    ✅    |
-| Readiness/Liveness Probes               |  ❌   |    ✅    |
-| Helm charts                             |  ❌   |    ✅    |
-| Distributed Monitoring                  |  ❌   |    ✅    |
+|                                        | AKS Fabrikam Drone Delivery |
+|----------------------------------------|----------|
+| Egress restriction using Azure Firewall|    ✅    |
+| Ingress Controller                     |    ✅    |
+| Azure Active Directory Pod Identity    |    ✅    |
+| Resource Limits                        |    ✅    |
+| Other Infrastructure aspects           |    ✅    |
+| Zero Trust Network Policies            |    ✅    |
+| Horizontal Pod Autoscaling             |    ✅    |
+| Cluster Autoscaling                    |    ✅    |
+| Readiness/Liveness Probes              |    ✅    |
+| Helm charts                            |    ✅    |
+| Distributed Monitoring                 |    ✅    |
 
 **AKS Fabrikam Drone Delivery is not just workload focused**, but also incorporates the infrastructure journey by expanding the [AKS Secure Baseline](https://github.com/mspnp/aks-secure-baseline). Similar to what organizations might get into while trying to implement their solutions based on the AKS Secure Baseline, this reference implementation carefully modifies or interchanges small pieces like using a different kind of ingress controller or deploying a different workload on top of the cluster. If you or your team are on day 0 or looking for infrastructure-related aspects only, the recommendation is to start with the [AKS Secure Baseline](https://github.com/mspnp/aks-secure-baseline). If you want more comprehensive guidance for deploying a more *interesting* workload, this is the proper guidance to follow.
 
