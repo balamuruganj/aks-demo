@@ -63,8 +63,9 @@ Throughout the reference implementation, you will see reference to _Fabrikam Dro
 * [Azure KeyVault Secret Store CSI Provider](https://github.com/Azure/secrets-store-csi-driver-provider-azure)
 * [Kured](https://docs.microsoft.com/azure/aks/node-updates-kured)
 
-![Network diagram depicting a hub-spoke network with two peered VNets, each with three subnets and main Azure resources.](./imgs/aks-securebaseline-fabrikamdronedelivery.png)
-
+![Network diagram depicting a hub-spoke network with two peered VNets, each with three subnets and main Azure resources.](./imgs/demo-coverage.JPG)
+#### What we have in this demo
+![The components in high level](./imgs/aks-securebaseline-fabrikamdronedelivery.png)
 ## Deploy the reference implementation
 
 Here are the required sections to follow for deploying the AKS Fabrikam Drone Delivery reference implementation.
