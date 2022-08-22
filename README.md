@@ -40,7 +40,7 @@ Throughout the reference implementation, you will see reference to _Fabrikam Dro
 
 #### Azure platform
 
-* AKS v1.19
+* AKS v1.22.11
   * System and User [node pool separation](https://docs.microsoft.com/azure/aks/use-system-pools)
   * [AKS-managed Azure AD](https://docs.microsoft.com/azure/aks/managed-aad)
   * Managed Identities
